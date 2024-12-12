@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(6, 153, 13);
+    color: white;
+    padding: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header h1 {
+    margin-left: 15px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: medium;
+}
+
+main{
+    display: flex;
+    
+}
+
+
+aside {
+    background-color:#ddd;
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    border-radius: 8px;
+    margin: 15px;
+    align-items: center;
+    height: 700px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    
+}
+
+aside h2{
+    text-align: left;
+}
+
+aside hr{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 400px;
+}
+aside p{
+    padding: 10px;
+}
+
+#flor_flexbox {
+    width: 170px;
+    height: 170px;
+}
+
+aside img{
+    width: 350px;
+    border-radius: 8px;
+    height: 250px;
+    margin: 15px;
+}
+
+
+#flores {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin: 15px;
+    
+}
+
+#flores article {
+    margin-bottom: 20px; 
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+#flores img {
+    width: 250px;
+    border-radius: 200px;
+    height: 200px;
+}
+
+.flor{
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.flor h2{
+    margin: 10px;
+}
+
+.flor p{
+    margin: 10px; 
+}
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: rgb(6, 153, 13);
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+footer nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: medium;
+}
+
+footer nav ul li {
+    margin-left: 5px;
+    margin-right: 5px;
+}
